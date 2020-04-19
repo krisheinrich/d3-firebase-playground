@@ -1,0 +1,27 @@
+body {
+  --light-green-color: #00bfa5;
+  --light-gray-color: #ccc;
+}
+.nav { background-color: 333; }
+button {
+  background: #333 !important;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 16px;
+  font-size: 1.6em;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.active { background: var(--light-green-color) !important; }
+form span { color: var(--light-green-color) !important; }
+
+.x-axis path, .y-axis path,
+.x-axis line, .y-axis line {
+  stroke: var(--light-gray-color);
+}
+.x-axis text, .y-axis text {
+  fill: var(--light-gray-color);
+  font-size: 14px;
+}
