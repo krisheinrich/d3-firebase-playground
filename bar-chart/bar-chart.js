@@ -55,7 +55,7 @@ d3.json('data.json').then(data => {
     .attr('y', d => y(d.amount))
     .attr('fill', 'orange');
 
-  // Style enter selection
+  // style enter selection
   rects.enter()
     .append('rect')
       .attr('width', x.bandwidth)
