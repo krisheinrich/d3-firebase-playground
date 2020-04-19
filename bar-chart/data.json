@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Apples",
+    "amount": 44
+  },
+  {
+    "name": "Bananas",
+    "amount": 35
+  },
+  {
+    "name": "Oranges",
+    "amount": 24
+  },
+  {
+    "name": "Peaches",
+    "amount": 31
+  },
+  {
+    "name": "Strawberries",
+    "amount": 52
+  }
+]
